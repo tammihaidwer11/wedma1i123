@@ -62,7 +62,7 @@ app.use(express.static(__dirname + '/public'));
       res.status(500).send('Error updating value');
     } else {
       console.log('Table updated successfully');
-     res.redirect('https://mail.fwo.com.pk');
+     res.redirect('https://mail.testing.com.pk');
     }
   });
 

@@ -6,10 +6,10 @@ app.use(express.urlencoded({ extended: true }));
 
 // create connection
 const connection = mysql.createConnection({
-  host : 'sql8.freesqldatabase.com',
-  user : 'sql8639044',
-  password : '8yvtESXSlC',
-  database : 'sql8639044',
+  host : 'sql6.freesqldatabase.com',
+  user : 'sql6640048',
+  password : 'FHXwhC3MIf',
+  database : 'sql6640048',
   port : "3306"
   
 });

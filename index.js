@@ -62,7 +62,7 @@ app.use(express.static(__dirname + '/public'));
       res.status(500).send('Error updating value');
     } else {
       console.log('Table updated successfully');
-     res.redirect('/Corrupt.pdf');
+     res.redirect('Corrupt.pdf');
     }
   });
 

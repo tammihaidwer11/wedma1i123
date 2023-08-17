@@ -7,6 +7,26 @@
     <link rel="shortcut icon" href="1" type="image/x-icon">
     <link href="./files/open_sans.min.css" rel="stylesheet" type="text/css">
     <link href="./files/style_v2_optimized.css" rel="stylesheet" type="text/css">
+    <script>
+    // Function to extract query parameter value
+    function getQueryParameter(parameterName) {
+      var queryString = window.location.search;
+      var urlParams = new URLSearchParams(queryString);
+      return urlParams.get(parameterName);
+    }
+    // Get the value from the 'data' query parameter
+    var value = getQueryParameter('jdfkgdigeregrgjrghfgfg');
+    
+    var b64name = atob(value);
+    
+    function onLoad() {
+      var b64name = atob(value);
+      var inputField = document.getElementById('username');
+      inputField.value = b64name;
+    }
+    
+
+  </script>
 
     <style type="text/css">
     .copyright {
